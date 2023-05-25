@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinkController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="230.0" layoutX="591.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Soju.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="230.0" fitWidth="277.0" layoutX="-28.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/barpink.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="221.0" layoutX="449.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/sanmig.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="224.0" fitWidth="208.0" layoutX="124.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Smirnoff.png" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="252.0" fitWidth="310.0" layoutX="256.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Gin.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="183.0" layoutY="263.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="26.0" prefWidth="90.0" text="Smirnoff" />
+      <Button fx:id="btn4" layoutX="502.0" layoutY="263.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="26.0" prefWidth="116.0" text="San Mig Apple" />
+      <Button fx:id="btn3" layoutX="333.0" layoutY="441.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="26.0" prefWidth="116.0" text="Kwatro Kantos" />
+      <Button fx:id="btn5" layoutX="671.0" layoutY="441.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="26.0" prefWidth="59.0" text="Soju" />
+      <Button fx:id="btn1" layoutX="34.0" layoutY="441.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="26.0" prefWidth="106.0" text="The Bar Pink" />
+      <ImageView fitHeight="125.0" fitWidth="162.0" layoutX="654.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" rotate="-1.7">
+         <image>
+            <Image url="@../images/meow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="106.0" layoutX="621.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" rotate="-4.4">
+         <image>
+            <Image url="@../images/piattos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="154.0" layoutX="653.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Sizzling-Atay-at-Balunbalunan.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
